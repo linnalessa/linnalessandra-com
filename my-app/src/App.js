@@ -11,23 +11,29 @@ import Footer from './components/Footer';
 export default function App() {
   return (
     <div>
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Navbar.Brand href="#home">
-
-     
-
-      <Image style={{ height: "100px", width: "",  }} src={logo} />
-     
+    <Navbar className="color-nav" collapseOnSelect expand="lg" bg="black" variant="dark">
+      <Navbar.Brand href="home">
+      <img
+        src={logo}
+        width=""
+        height="60"
+        className="d-inline-block align-top"
+        alt="Linn Alessandra logo"
+      />
+   
+  
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">
+      <Navbar.Collapse id="responsive-navbar-nav" >
         <Nav className="mr-auto">
-          <Nav.Link href="#features">About</Nav.Link>
-          <Nav.Link href="#features">Heading</Nav.Link>
-          <Nav.Link href="#features">Heading</Nav.Link>
-          <Nav.Link href="#pricing">Contact</Nav.Link>
+          <Nav.Link href="about">About</Nav.Link>
+          <Nav.Link href="heading">Heading</Nav.Link>
+          <Nav.Link href="heading">Heading</Nav.Link>
+          <Nav.Link href="Contact">Contact</Nav.Link>
           
         </Nav>
+
+  
         
       </Navbar.Collapse>
     </Navbar>
