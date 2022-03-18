@@ -26,10 +26,10 @@ export default function App() {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav" >
         <Nav className="mr-auto">
-          <Nav.Link href="about">About</Nav.Link>
-          <Nav.Link href="heading">Heading</Nav.Link>
-          <Nav.Link href="heading">Heading</Nav.Link>
-          <Nav.Link href="Contact">Contact</Nav.Link>
+          <Nav.Link href="about">ABOUT</Nav.Link>
+          <Nav.Link href="heading"></Nav.Link>
+          <Nav.Link href="heading">PORTFOLIO</Nav.Link>
+          <Nav.Link href="Contact">CONTACT</Nav.Link>
           
         </Nav>
 
