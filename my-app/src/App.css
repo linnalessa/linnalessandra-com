@@ -1,7 +1,30 @@
+
 .App {
   text-align: center;
 }
 
+.navbar-dark .navbar-toggler {
+    color: black !important;
+    
+}
+
+.navbar-toggler {
+  border: none !important;
+  
+}
+
+
+
+
+.color-nav {
+  background-color: black;
+  font-family: futura-light;
+  height: 120px
+}
+
+#responsive-navbar-nav {
+  margin-left: 200px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
